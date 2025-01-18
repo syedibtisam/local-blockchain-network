@@ -23,26 +23,6 @@ A **fully decentralized blockchain network** developed in **Go (Golang)**. This 
 
 ---
 
-## Project Structure
-
-```
-📦 local-blockchain-network
- ┣ 📂 network
- ┃ ┣ 📜 server.go       # Manages peer-to-peer communication
- ┃ ┣ 📜 client.go       # Handles transactions & communication
- ┃ ┗ 📜 network.go      # Core networking layer
- ┣ 📂 blockchain
- ┃ ┣ 📜 block.go        # Defines block structure & validation
- ┃ ┣ 📜 transaction.go  # Handles transactions within blocks
- ┃ ┣ 📜 blockchain.go   # Manages the blockchain state
- ┃ ┗ 📜 consensus.go    # Implements consensus algorithm
- ┣ 📜 main.go           # Entry point for launching blockchain node
- ┣ 📜 README.md         # Project documentation
- ┗ 📜 go.mod            # Go module dependencies
-```
-
----
-
 ## Setup & Installation
 
 ### **Prerequisites**
